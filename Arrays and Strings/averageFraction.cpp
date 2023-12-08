@@ -130,6 +130,7 @@ int main()
     }
     Fraction size(SIZE, 1);
     Fraction average = sum.div(size);
+    average.lowestTerms();
     
     cout << "Average of the fractions you entered is :"; average.displayFraction();
        
