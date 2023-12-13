@@ -15,7 +15,7 @@ int main()
 {
     // Declaration Syntax
     vector<int> v;
-    
+
     // push_back() O(1)
     for (int i = 0; i < v.size(); i++) // O(1)
     {
@@ -31,7 +31,7 @@ int main()
         printVector(v);
     }
 
-    // Copying O(n) 
+    // Copying O(n)
     vector<int> v1 = v;
     /*This copying is an expensive function because of which, we will try to copy by reference wherever possible*/
 
